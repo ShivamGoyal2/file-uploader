@@ -1,0 +1,152 @@
+
+.uploader-container {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: Arial, sans-serif;
+}
+
+.uploader-container h2 {
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.upload-box {
+  border: 2px dashed #aaa;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  background: #fafafa;
+}
+
+.upload-icon {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.choose-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.file-count {
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.file-list {
+  margin-top: 25px;
+}
+
+.file-list h3 {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.file-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  gap: 12px;
+}
+
+.file-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.file-icon {
+  font-size: 28px;
+}
+
+.file-details {
+  min-width: 0;
+}
+
+.file-name {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 6px;
+  overflow-wrap: anywhere;
+}
+
+.file-meta {
+  font-size: 12px;
+  color: #777;
+  margin: 0 0 7px;
+}
+
+.accepted,
+.rejected {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.accepted {
+  color: #16a34a;
+}
+
+.rejected {
+  color: #dc2626;
+}
+
+.delete-btn {
+  background: #fee2e2;
+  color: #dc2626;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.submit-btn:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  opacity: 0.85;
+}
+
+@media (max-width: 480px) {
+  .uploader-container {
+    margin: 15px;
+    padding: 16px;
+  }
+
+  .file-card {
+    align-items: flex-start;
+  }
+}
